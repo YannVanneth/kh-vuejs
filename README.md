@@ -1,28 +1,28 @@
-# vuejs.org
+# vuejs.org កំណែជាភាសាខ្មែរ
 
-## Contributing
+## ការរួមចំណែក
 
-This site is built with [VitePress](https://github.com/vuejs/vitepress) and depends on [@vue/theme](https://github.com/vuejs/vue-theme). Site content is written in Markdown format located in `src`. For simple edits, you can directly edit the file on GitHub and generate a Pull Request.
+គេហទំព័រនេះត្រូវបានបង្កើតឡើងជាមួយ [VitePress](https://github.com/vuejs/vitepress) និងអាស្រ័យលើ [@vue/theme](https://github.com/vuejs/vue-theme)។ ខ្លឹមសារនៃគេហទំព័រត្រូវបានសរសេរជាទម្រង់ Markdown ដែលមានទីតាំងនៅក្នុង `src`។ សម្រាប់ការកែសម្រួលសាមញ្ញ អ្នកអាចកែសម្រួលឯកសារដោយផ្ទាល់នៅលើ GitHub និងបង្កើត Pull Request ។
 
-For local development, [pnpm](https://pnpm.io/) is preferred as package manager:
+សម្រាប់ local development [pnpm](https://pnpm.io/) ត្រូវបានជ្រើសជា package manager៖
 
 ```bash
 pnpm i
 pnpm run dev
 ```
 
-This project requires Node.js to be `v18` or higher. And it is recommended to enable corepack:
+គម្រោងនេះតម្រូវឱ្យ Node.js មានកំណែ `v18` ឬខ្ពស់ជាងនេះ។ ហើយវាត្រូវបានណែនាំអោយបើកនូវ corepack៖
 
 ```bash
 corepack enable
 ```
 
-## Working on the content
+## ការធ្វើការលើ​ Content
 
-- See VitePress docs on supported [Markdown Extensions](https://vitepress.dev/guide/markdown) and the ability to [use Vue syntax inside markdown](https://vitepress.dev/guide/using-vue).
+- សូមមើលឯកសារ VitePress នៅលើ [Markdown Extensions](https://vitepress.dev/guide/markdown) ដែលគាំទ្រ និងសមត្ថភាពក្នុងការ [ការប្រើ Vue syntax នៅខាងក្នុង markdown](https://vitepress.dev/guide/using-vue)។
 
-- See the [Writing Guide](https://github.com/vuejs/docs/blob/main/.github/contributing/writing-guide.md) for our rules and recommendations on writing and maintaining documentation content.
+- សូមមើល [Writing Guide](https://github.com/vuejs/docs/blob/main/.github/contributing/writing-guide.md) សម្រាប់ច្បាប់ និងអនុសាសន៍របស់យើងលើការសរសេរ និងរក្សាខ្លឹមសារឯកសារ។
+  
+## ការធ្វើការលើ theme
 
-## Working on the theme
-
-If changes need to made for the theme, check out the [instructions for developing the theme alongside the docs](https://github.com/vuejs/vue-theme#developing-with-real-content).
+ប្រសិនបើការផ្លាស់ប្តូរត្រូវបានបង្កើតឡើងសម្រាប់ theme សូមពិនិត្យមើល [ការណែនាំសម្រាប់ការអភិវឌ្ឍន៍ theme ជាមួយឯកសារ](https://github.com/vuejs/vue-theme#developing-with-real-content)។
